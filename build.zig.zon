@@ -10,8 +10,8 @@
             .lazy = true,
         },
         .tree_sitter = .{
-            .url = "git+https://github.com/tree-sitter/tree-sitter#24a64db7ccb7dff830789cf44ecfeaacf7fee822",
-            .hash = "tree_sitter-0.27.0-Tw2sR0TDCwBUIKjCd2avkJKfxXvSNZmdynJqiXMUYgAv",
+            .url = "git+https://github.com/tree-sitter/tree-sitter#fbfb07e93de82e12784cd0f646e291b8f2e4126e",
+            .hash = "tree_sitter-0.28.0-Tw2sR8XPDQDHv9pO_QbzREH0aySWeWVnX8DvXGewNdcN",
         },
     },
     .paths = .{
