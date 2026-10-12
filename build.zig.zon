@@ -4,14 +4,16 @@
     .version = "0.26.0",
     .minimum_zig_version = "0.17.0",
     .dependencies = .{
+        // 0.17: flyewic forks of the tree-sitter C runtime and the C grammar,
+        // ported build.zig (upstream still uses the 0.16 build API).
         .@"tree-sitter-c" = .{
-            .url = "git+https://github.com/tree-sitter/tree-sitter-c#b780e47fc780ddc8da13afa35a3f4ed5c157823d",
-            .hash = "tree_sitter_c-0.24.2-y5boS-ptQADHoCoVfjGT_nFtFQ5LbomIkW0fxG3_cmdB",
+            .url = "git+https://github.com/flyewic/tree-sitter-c#d07b2e495002b346c32a5746052e1864116e8286",
+            .hash = "tree_sitter_c-0.24.2-y5boS91tQAAhDcFh686lIRoc2FECwvAPwFD-OP9V6zDS",
             .lazy = true,
         },
         .tree_sitter = .{
-            .url = "git+https://github.com/tree-sitter/tree-sitter#24a64db7ccb7dff830789cf44ecfeaacf7fee822",
-            .hash = "tree_sitter-0.27.0-Tw2sR0TDCwBUIKjCd2avkJKfxXvSNZmdynJqiXMUYgAv",
+            .url = "git+https://github.com/flyewic/tree-sitter#43da0b7f005176d0b2ba8416405231f994a46470",
+            .hash = "tree_sitter-0.27.0-Tw2sRzfDCwCNRqwMfqbU31qmdlApJAVSPUCG6WFpmOSo",
         },
     },
     .paths = .{
