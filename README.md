@@ -3,7 +3,7 @@
 [![CI][ci]](https://github.com/tree-sitter/zig-tree-sitter/actions/workflows/ci.yml)
 [![docs][docs]](https://tree-sitter.github.io/zig-tree-sitter/)
 
-Zig bindings to the [tree-sitter] parsing library. Needs zig 0.16.
+Zig bindings to the [tree-sitter] parsing library. Needs zig 0.17.
 
 ## Usage
 
